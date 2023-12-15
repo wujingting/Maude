@@ -1,10 +1,1 @@
 ***
-*** Loop {
-***      Remainder Section
-***  rs: tmp := enqueue(queue,i);
-***  es: queue := tmp;
-***  ws: repeat until top(queue) = i;
-***      Critical Section
-***  cs: tmp := dequeue(queue);
-***  ds: queue := tmp
-*** }
